@@ -1,0 +1,54 @@
+site_name: Coding for the Humanities
+site_url: https://mydomain.org/site
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://fosstodon.org/@squidfunk
+nav:
+  - Prologue: 
+    - index.md
+  - Toolkit:
+    - Toolkit/setup.md
+    - Toolkit/glossary.md
+    - Toolkit/cmdline.md
+    - Toolkit/markdown.md
+    - Toolkit/git.md
+    - Toolkit/github.md
+  - Python Fundamentals:
+    - Python_Fundamentals/boolean_ops.md
+    - Python_Fundamentals/comparison_ops.md
+    - Python_Fundamentals/jupyter.md
+  - Python Libraries:
+    - Python_Libraries/pandas.md
+    - Python_Libraries/common_err.md
+
+
+
+
