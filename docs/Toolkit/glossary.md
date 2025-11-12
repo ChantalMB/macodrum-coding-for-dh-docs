@@ -88,13 +88,17 @@
 - A personal access token (PAT) is an alternative to using passwords for authentication to GitHub. Personal access tokens enable individuals to access their GitHub resources via the command line. 
 
 
-**Elements of a Git repository**
+## Elements of a Git repository
 
-- README.md
+**README.md**
+
   - A file that contains the documentation for a project. 
-- Folder (project) content
-- Commits
+
+**Commits**
+
   - A “commit” is the note you will see to the right of the file listings in your GitHub repository. They capture a snapshot of a project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. 
-- Branch
+
+**Branch**
+
   - In a Git repository, a branch is a place where the changes to your code are stored and recorded.
   - You will always have a primary branch formed when you create a Git repository. In projects where multiple people are working on different elements of the code, there will be multiple branches for each element.
